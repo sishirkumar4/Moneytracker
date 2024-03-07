@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color: antiquewhite;
+}
+h1,h2{
+    text-align: center;
+    color:rgb(22, 88, 220);
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-right: 40px;
+    justify-content: center;
+    color:rgb(136, 14, 150);
+
+}
+.input-section label{
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+.input-section input[type="number"],.input-section input[type="date"]{
+    padding: 5px;
+    margin-right: 35px;
+}
+.input-section button{
+    padding: 5px;
+    background-color: rgb(136, 5, 210);
+    color:aliceblue;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.expenses-list{
+    margin:20px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(192, 229, 41);
+    color:rgb(12, 2, 2);
+}
+tfoot td{
+    font-weight: bold;
+}
+
+.delete-btn{
+    padding: 5px;
+    background-color: rgb(233, 16, 16);
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
